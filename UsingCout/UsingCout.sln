@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingCout1", "UsingCout1\UsingCout1.vcxproj", "{479B715E-5F2C-43CF-BCBA-2AB6D0CCF7F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UsingCout2", "UsingCout2\UsingCout2.vcxproj", "{4A4AB690-0BCF-44D0-8D3A-D45CD6F971B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{479B715E-5F2C-43CF-BCBA-2AB6D0CCF7F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{479B715E-5F2C-43CF-BCBA-2AB6D0CCF7F9}.Debug|Win32.Build.0 = Debug|Win32
+		{479B715E-5F2C-43CF-BCBA-2AB6D0CCF7F9}.Release|Win32.ActiveCfg = Release|Win32
+		{479B715E-5F2C-43CF-BCBA-2AB6D0CCF7F9}.Release|Win32.Build.0 = Release|Win32
+		{4A4AB690-0BCF-44D0-8D3A-D45CD6F971B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4A4AB690-0BCF-44D0-8D3A-D45CD6F971B4}.Debug|Win32.Build.0 = Debug|Win32
+		{4A4AB690-0BCF-44D0-8D3A-D45CD6F971B4}.Release|Win32.ActiveCfg = Release|Win32
+		{4A4AB690-0BCF-44D0-8D3A-D45CD6F971B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
