@@ -55,8 +55,20 @@ int Dec(int &a)
 	return a;
 }
 
+
+void PrintArray(int arg[], int length)
+{ 
+	for (int n = 0; n < length; n++)
+	{
+		cout << arg[n] << ' ';
+	};
+	cout << endl;
+}
+
 int main()
 {
+
+#if POINTER
 	
 	int ival = { 1234 };
 
@@ -85,6 +97,20 @@ int main()
 	piAddr = pi;
 
 	cout << piAddr;
+#endif
+
+	int n[4] = { 1, 2, 3, 4 };
+
+	PrintArray(n, 10);
+
+	cout << endl;
+
+	string c = { "abcd" };
+
+	char *cptr = { &c };
+
+	cout << *cptr << endl;
+
 
 	cout << endl;
 	system("pause");
