@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grades1", "Grades1\Grades1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grades2", "Grades2\Grades2.vcxproj", "{A9120CC5-719D-4B2A-BF78-0FFB4261C59C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Grades3", "Grades3\Grades3.vcxproj", "{D34AB4F2-DE99-4855-83BD-DCE7FD583E51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{A9120CC5-719D-4B2A-BF78-0FFB4261C59C}.Debug|Win32.Build.0 = Debug|Win32
 		{A9120CC5-719D-4B2A-BF78-0FFB4261C59C}.Release|Win32.ActiveCfg = Release|Win32
 		{A9120CC5-719D-4B2A-BF78-0FFB4261C59C}.Release|Win32.Build.0 = Release|Win32
+		{D34AB4F2-DE99-4855-83BD-DCE7FD583E51}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D34AB4F2-DE99-4855-83BD-DCE7FD583E51}.Debug|Win32.Build.0 = Debug|Win32
+		{D34AB4F2-DE99-4855-83BD-DCE7FD583E51}.Release|Win32.ActiveCfg = Release|Win32
+		{D34AB4F2-DE99-4855-83BD-DCE7FD583E51}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
