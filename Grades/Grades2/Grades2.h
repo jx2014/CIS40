@@ -55,7 +55,7 @@ class Grades
 		string ToUpper(string &s); // convert string to upper case
 		bool ClassInfoQualifer(string userInput, string qualifier[], int size);
 		string GetUserInput(string &userInput);
-		int Grades::GetUserInput(int &userInput);
+		int GetUserInput(int &userInput);
 		
 
 	public:		
