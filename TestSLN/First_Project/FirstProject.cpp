@@ -14,6 +14,8 @@
 #include <exception>
 #include <ctime>
 #include <array>
+#include <fstream>
+#include <string>
 
 /*using std::cout;
 using std::cin;
@@ -27,11 +29,24 @@ using namespace std;
 
 void main()
 {
-	array <int, 5> alist = { 11, 22, 33, 44, 55 };
+	string oFile = "output.txt";
+	string oDir = "c:\\temp\\";
+	
+	string finalOutputFile = oDir + oFile;
 
-	//cout << alist.begin << endl;
+	cout << "File to be writen: " << finalOutputFile << endl;
+		
+	ofstream outputFile(finalOutputFile);
 
-	cout << begin(alist);
+	if (outputFile.is_open())
+	{
+		cout << "inside \"if (outputFile.is_open())\"" << endl;
+		outputFile << "line 1 test 13" << endl;
+		outputFile << "line 2 test 2\n";
+		outputFile.close();
+	}
+
+
 
 	cout << endl;
 	system("pause");
